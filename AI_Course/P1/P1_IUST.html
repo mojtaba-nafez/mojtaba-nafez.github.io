@@ -59,11 +59,49 @@
             <img src="./P1_IUST/maze.png" alt="Pacman maze" width="400">
             <p>All those colored walls,<br> Mazes give Pacman the blues,<br> So teach him to search.</p>
           </div>
-          <h2><a id="Introduction"></a>Introduction</h2>
+
+
+<hr>
+
+<div class="project">
+<h2><a name="Installation"></a>Python Installation</h2>
+          <p style="color:red;">The projects for this class assume you use Python 3.6. </p>
+
+<p>Many of you will not have Python 3.6 already installed on your computers. <a href="https://conda.io/docs/user-guide/overview.html">Conda</a> is an easy way to manage many different environments, each with its own Python versions and dependencies. This allows us to avoid conflicts between our preferred Python version and that of other
+classes. We'll walk through how to set up and use a conda environment.</p>
+
+<p> Prerequisite: <a href="https://docs.anaconda.com/anaconda/install/">Anaconda</a>. Many of you will have it installed from classes such as EE 16A; if you don't, install it through the link. </p>
+<h4><a name="CreatingEnvironment"></a>Creating a Conda Environment</h4>
+<p> Run the following command, and press y to install any missing packages. </p>
+<div class="code_snippet">
+<p><code>$ conda create --name ai python=3.6</code></p>
+</div>
+
+<h4><a name="EnteringEnvironment"></a>Entering the Environment</h4>
+<p> To enter the conda environment that we just created, do the following. Note that the Python version within the environment is 3.6, just what we want. </p>
+<div class="code_snippet">
+<p><code>$ source activate ai <br> (ai) $ python -V <br> Python 3.6.6 :: Anaconda, Inc.</code></p>
+</div>
+
+<h4><a name="LeavingEnvironment"></a>Leaving the Environment</h4>
+<p> Leaving the environment is just as easy. </p>
+<p><code>(ai) $ source deactivate<br> $ python -V <br> Python 3.5.2 :: Anaconda custom (x86_64)</code></p>
+<p>Our python version has now returned to whatever the system default is!</p>
+
+<h4><a name="LabMachines"></a>Using the Lab Machines</h4>
+<p>At the moment, students do not have the right permissions to download Python 3.6 or Conda on the lab machines. For P0, Python 3.5 (which is already installed) will suffice.</p>
+</div>
+
+<hr>
+          <h2><a id="Introduction" ></a>Introduction</h2>
+        
+
+        
           <p>In this project, your Pacman agent will find paths through his maze world, both to reach a particular location and to collect food efficiently. You will build general search algorithms and apply them to Pacman scenarios.</p>
-          <p>As in Project 0, this project includes an autograder for you to grade your answers on your machine. This can be run with the command:</p>
+          <p>this project includes an autograder for you to grade your answers on your machine. This can be run with the command:</p>
           <pre>python autograder.py</pre>
-          <p>See the autograder tutorial in Project 0 for more information about using the autograder.</p>
+          <p>for run just autograder on specific question:</p>
+          <pre>python autograder.py -q q1</pre>
           <p>The code for this project consists of several Python files, some of which you will need to read and understand in order to complete the assignment, and some of which you can ignore. You can download all the code and supporting files as a <a href="https://inst.eecs.berkeley.edu/~cs188/fa18/assets/files/search.zip">zip archive</a>.</p>
           <table class="table table-bordered">
             <tbody>
