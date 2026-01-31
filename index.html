@@ -20,15 +20,37 @@
               <p style="text-align:center">
                 <name>Mojtaba Nafez</name>
               </p>
-              <p>
-                I am a Master's student at <a href="https://en.sharif.ir/">Sharif University of Technology</a> in Computer Engineering, supervised by <a href="https://scholar.google.com/citations?user=pRyJ6FkAAAAJ&hl=en">Prof. MohammadHossein Rohban</a> in the RIML Lab.
+             <p>
+              I am a first-year Ph.D. student at 
+              <a href="https://www.epfl.ch/">École Polytechnique Fédérale de Lausanne (EPFL)</a>, Switzerland, 
+              and a Research Assistant in the Natural Language Understanding (NLU) group at the 
+              <a href="https://www.idiap.ch/en/scientific-research/natural-language-understanding">Idiap Research Institute</a>.
               </p>
               <p>
-                In recent years, I have been conducting research in the <a href="https://www.linkedin.com/company/robust-and-interpretable-machine-learning-lab/mycompany/">RIML Lab</a> under the supervision of <a href="https://scholar.google.com/citations?user=pRyJ6FkAAAAJ&hl=en">Prof. MohammadHossein Rohban</a>, closely collaborating with <a href="https://scholar.google.com/citations?user=jqHXvT0AAAAJ&hl=en">Prof. Mohammad Sabokrou</a>.
+                I received my M.Sc. degree in Computer Engineering from 
+                <a href="https://en.sharif.ir/">Sharif University of Technology</a>, 
+                where I conducted research in the 
+                <a href="https://www.linkedin.com/company/robust-and-interpretable-machine-learning-lab/mycompany/">
+                  Robust and Interpretable Machine Learning (RIML) Lab
+                </a> 
+                under the supervision of 
+                <a href="https://scholar.google.com/citations?user=pRyJ6FkAAAAJ&hl=en">
+                  Prof. MohammadHossein Rohban
+                </a>, 
+                and collaborated closely with 
+                <a href="https://scholar.google.com/citations?user=jqHXvT0AAAAJ&hl=en">
+                  Dr. Mohammad Sabokrou
+                </a>.
               </p>
-              <p>
-                Previously, I received my Bachelor of Science in Computer Engineering from <a href="https://www.iust.ac.ir/en">Iran University of Science and Technology</a>. During the final year of my Bachelor's, I was a research assistant at CVLab IUST, working under the supervision of <a href="https://scholar.google.com/citations?user=H34y7Q0AAAAJ&hl=en">Prof. Mohammad Reza Mohammadi</a>.
-              </p>
+            <p>
+              Previously, I received my Bachelor of Science in Computer Engineering from 
+              <a href="https://www.iust.ac.ir/en">Iran University of Science and Technology</a>. 
+              In my final year, I worked as a research assistant at CVLab IUST under the supervision of 
+              <a href="https://scholar.google.com/citations?user=H34y7Q0AAAAJ&hl=en">
+                Prof. Mohammad Reza Mohammadi
+              </a>.
+            </p>
+
 
               <p style="text-align:center">
                 <a href="mailto:mojtaba.nafez.99@gmail.com">Email</a> &nbsp/&nbsp
@@ -46,8 +68,14 @@
 
         <!-- <hr> -->
 
-        <table width="40%" align="center" border="0" cellspacing="10" cellpadding="0">
+        <table width="60%" align="center" border="0" cellspacing="10" cellpadding="0">
           <tbody><tr>
+            <td width="10%" valign="middle">
+              <a href="https://www.epfl.ch/en/"><img src="images/epfl-logo.svg" width="80"></a>
+            </td>
+            <td width="10%" valign="middle">
+              <a href="https://www.idiap.ch/en"><img src="images/idiap.png" width="100"></a>
+            </td>
             <td width="10%" valign="middle">
               <a href="https://www.linkedin.com/company/robust-and-interpretable-machine-learning-lab/mycompany/"><img src="images/RIML.jpeg" width="50"></a>
             </td>
@@ -68,9 +96,9 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                I have extensive research experience in trustworthiness and reliability machine learning models and have a strong academic interest 
-                in developing robust machine learning algorithms, especially within the domains of computer vision and
-                 natural language processing (NLP).
+                I have extensive research experience in the trustworthiness and reliability of machine learning models, 
+                particularly in the domains of computer vision and automatic speech recognition. 
+                I am now motivated to expand my work toward Large Language Models (LLMs).
               </p>
             </td>
           </tr>
@@ -88,6 +116,53 @@
             </tr>
           </tbody>
         </table>
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr onmouseout="codebook_stop()" onmouseover="codebook_start()">
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <div class="two" id='codebook_image'>
+              <img src='images/FrameShield.jpg' width="180"></div>
+              <img src='images/FrameShield.jpg' width="180">
+            </div>
+            <script type="text/javascript">
+              function codebook_start() {
+                document.getElementById('codebook_image').style.opacity = "1";
+              }
+
+              function codebook_stop() {
+                document.getElementById('codebook_image').style.opacity = "0";
+              }
+              codebook_stop()
+            </script>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="">
+              <papertitle>FrameShield: Adversarially Robust Video Anomaly Detection</papertitle>
+            </a>
+            <br>
+            <strong>Mojtaba Nafez</strong>,
+            Mobina Poulaei,
+            Nikan Vasei,
+            Bardia Soltani Moakhar,
+            Mohammad Sabokrou, 
+            MohammadHossein Rohban
+            <br>
+            <em><b>NeurIPS</b></em>, <b>2025</b>
+            <br>
+            <a href="https://arxiv.org/abs/2510.21532">Arxiv</a>
+            /
+            <a href="https://github.com/rohban-lab/FrameShield">code</a>
+            <p></p>
+            <p>
+            <p></p>
+            <p>
+            Weakly Supervised Video Anomaly Detection (WSVAD) models are vulnerable to adversarial attacks, and standard defenses fail under weak supervision. We propose SRD, a pseudo-anomaly generation method that creates temporally consistent synthetic anomalies to reduce pseudo-label noise and enable effective adversarial training. Our approach improves robustness, outperforming prior methods by 71.0% AUROC on average across benchmarks.            </p>
+          </td>
+        </tr>
+
+
 
 
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
