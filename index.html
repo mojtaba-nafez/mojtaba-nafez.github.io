@@ -67,15 +67,24 @@
 
   <table class="full pub"><tbody>
 
+        <tr>
+      <td class="thumb"><img src="images/CTR-Reg.png" alt="CTR-Reg"></td>
+      <td class="text">
+        <a href="https://arxiv.org/abs/2610.01275"><papertitle>Know When to Hold 'em: Correct-Token Retention in Uniform-State Diffusion Language Models</papertitle></a><br>
+        <strong>Mojtaba Nafez</strong>, James Henderson<br>
+        <em><b>arXiv preprint</b></em>, <b>2026</b><br>
+        <a href="https://arxiv.org/abs/2610.01275">arXiv</a>
+        <p>Uniform-state diffusion LMs can revise any token, but they also keep rewriting correct ones, which hurts sample quality and diversity. CTR-Reg is an auxiliary loss that teaches the model to retain unperturbed tokens. It cuts per-step revisions from ~200 to 3–11 positions and more than halves generative perplexity while preserving diversity.</p>      </td>
+    </tr>
+    
     <tr>
       <td class="thumb"><img src="images/TransferBreaker.jpg" alt="TransferBreaker"></td>
       <td class="text">
-        <papertitle>Breaking Adversarial Transferability in Fine-Tuned Speech Recognition</papertitle><br>
+        <a href="https://arxiv.org/abs/2610.09109"><papertitle>Breaking Adversarial Transferability in Fine-Tuned Speech Recognition</papertitle></a><br>
         <strong>Mojtaba Nafez*</strong>, Aref Mousavi*, Mohammad Ebrahim Mahdavi, Mobina Poulaei, Kiarash Kiani Feriz, Mohammad Hossein Rohban<br>
         <em><b>NeurIPS</b></em>, <b>2026</b><br>
-        paper (coming soon) / code (coming soon) / <a href="https://www.linkedin.com/posts/mohammad-hossein-rohban-75567677_neurips-speechrecognition-adversarialrobustness-ugcPost-7509083967833284609-cofW/">announcement</a>
-        <p>Adversarial perturbations crafted on public ASR models transfer to their privately fine-tuned versions with near white-box strength. TransferBreaker suppresses this transfer during fine-tuning, combining base-model adversarial training, latent Jacobian regularization, and hybrid base/target perturbations. Across three languages and four ASR models, it cuts adversarial WER from 92.6 to 27.8.</p>
-      </td>
+        <a href="https://arxiv.org/abs/2610.09109">arXive</a> / <a href="https://github.com/rohban-lab/TransferBreaker">code</a>
+        <p>Adversarial attacks crafted on public ASR models transfer almost fully to their privately fine-tuned versions. TransferBreaker suppresses this transfer during fine-tuning, cutting adversarial WER from 92.6 to 27.8 across three languages and four models.</p>      </td>
     </tr>
 
     <tr>
@@ -96,8 +105,7 @@
         <strong>Mojtaba Nafez</strong>, Mobina Poulaei, Nikan Vasei, Bardia Soltani Moakhar, Mohammad Sabokrou, Mohammad Hossein Rohban<br>
         <em><b>NeurIPS</b></em>, <b>2025</b><br>
         <a href="https://arxiv.org/abs/2510.21532">arXiv</a> / <a href="https://github.com/rohban-lab/FrameShield">code</a>
-        <p>Weakly supervised video anomaly detection models are vulnerable to adversarial attacks, and standard defenses fail under weak supervision. FrameShield uses SRD, a pseudo-anomaly generator that creates temporally consistent synthetic anomalies, to reduce pseudo-label noise and enable effective adversarial training, outperforming prior methods by 71.0% AUROC on average.</p>
-      </td>
+        <p>Weakly supervised video anomaly detectors are vulnerable to adversarial attacks, and standard defenses fail in this setting. FrameShield generates temporally consistent pseudo-anomalies to enable effective adversarial training. It improves AUROC by 71.0% on average over prior methods.</p>      </td>
     </tr>
 
     <tr>
